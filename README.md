@@ -1,66 +1,87 @@
-# NexusTax  
-### Real-Time Safe-to-Spend Engine
+Managing personal finances is often challenging for individuals due to the lack of a single, secure, and easy-to-use platform that can track income and expenses, analyze spending behavior, and provide clear financial insights. Most users struggle to understand where their money is being spent and how to make better financial decisions.
 
-NexusTax is a financial operating system that eliminates phantom wealth.
+💡 Solution
 
-Traditional banking shows total balance.  
-We show what you can actually spend.
+This project provides a unified digital platform that allows users to:
 
----
+Track income and expenses
 
-## The Problem
+Categorize transactions
 
-Freelancers and gig workers often spend money that is technically reserved for taxes.  
-This leads to unexpected liabilities and financial stress during tax season.
+Visualize financial data using charts
 
----
+Analyze spending patterns
 
-## The Solution — Shadow Ledger
+Gain better control over personal finances
 
-Every income transaction is instantly mirrored with a tax allocation entry.
+The platform focuses on security, accuracy, and ease of use, making it suitable for the general public.
 
-This powers a live metric:
+🚀 Key Features
+🔐 Authentication & Security
 
-### Safe-to-Spend (STS)
+User Registration and Login
 
-Your true disposable income, updated in real time.
+JWT-based authentication
 
-No surprises. No reactive tax management.
+Secure access to user-specific data
 
----
+Logout functionality
 
-## Built With (MERN Stack)
+Personalized user greeting after login
 
-- React.js (Optimistic UI updates)
-- Node.js + Express
-- MongoDB (Aggregation pipelines for deterministic tax calculations)
-- React Context API
+💸 Transaction Management
 
----
+Add income and expense transactions
 
-## Security & Scalability
+Categorize expenses (Food, Travel, Rent, etc.)
 
-- JWT Authentication  
-- AES-256 Encryption  
-- Stateless Node clusters  
-- MongoDB sharding  
+Store transactions securely in MongoDB
 
----
+Real-time updates in analytics
 
-## Target Users
+📊 Financial Analytics
 
-- Freelancers  
-- Gig workers  
-- Small businesses  
+Income vs Expense Pie Chart
 
----
+Category-wise Expense Pie Chart
 
-## Vision
+Financial summary cards:
 
-To build an autonomous financial co-pilot where tax management becomes invisible and stress-free.
+Total Income
 
----
+Total Expense
 
-## License
+Current Balance
 
-MIT
+Integrated transaction list inside analytics page
+
+🧭 Dashboard & UI
+
+Clean and responsive dashboard layout
+
+Sidebar navigation
+
+Top-right logout option
+
+Modern and intuitive user interface
+
+🛠 Technology Stack
+Frontend
+
+React (Vite)
+
+Tailwind CSS (CDN)
+
+Chart.js for data visualization
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB Atlas
+
+Mongoose
+
+JSON Web Token (JWT)
