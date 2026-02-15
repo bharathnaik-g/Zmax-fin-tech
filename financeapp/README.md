@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NexusTax  
+### Real-Time Safe-to-Spend Engine
 
-## Getting Started
+NexusTax is a financial operating system that eliminates phantom wealth.
 
-First, run the development server:
+Traditional banking shows total balance.  
+We show what you can actually spend.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## The Problem
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Freelancers and gig workers often spend money that is technically reserved for taxes.  
+This leads to unexpected liabilities and financial stress during tax season.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## The Solution — Shadow Ledger
 
-To learn more about Next.js, take a look at the following resources:
+Every income transaction is instantly mirrored with a tax allocation entry.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This powers a live metric:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Safe-to-Spend (STS)
 
-## Deploy on Vercel
+Your true disposable income, updated in real time.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No surprises. No reactive tax management.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Built With (MERN Stack)
+
+- React.js (Optimistic UI updates)
+- Node.js + Express
+- MongoDB (Aggregation pipelines for deterministic tax calculations)
+- React Context API
+
+---
+
+## Security & Scalability
+
+- JWT Authentication  
+- AES-256 Encryption  
+- Stateless Node clusters  
+- MongoDB sharding  
+
+---
+
+## Target Users
+
+- Freelancers  
+- Gig workers  
+- Small businesses  
+
+---
+
+## Vision
+
+To build an autonomous financial co-pilot where tax management becomes invisible and stress-free.
+
+---
+
+## License
+
+MIT
